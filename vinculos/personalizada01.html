@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actividad 01</title>
+	<link href="../css/estilosp01.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<h1>Venta de motos</h1>
+	<p> una empresa que crea emociones, transforma el sueño y enriquece la vida de las personas en todo el mundo, por medio de la sabiduría y la pasión, dispuesta a proporcionar siempre nuevas emociones. </p>
+	<h3>Las mejores Bikers 250 </h3>
+	<ul>
+		<li>Gixxer 250 <br><img src="../img/gixxer250.jpg" alt="Moto Gixxer 250" width="300" height="200"></li>
+		<li>Yamaha FZ25 <br><img src="../img/fz25.jpg" alt="Moto FZ25" width="300" height="200"></li>
+		<li>250 NK <br><img src="../img/nk250.jpg" width="300" height="200"></li>
+	</ul>
+	<h3>Motos en promoción</h3>
+	<table>
+		<tr class="head">
+			<th>Empresa </th>
+			<th>Nombre</th>
+			<th>Modelo</th>
+			<th>Precio</th>
+		</tr>
+		<tr>
+			<th>Cf motos</th>
+			<td>250 SR</td>
+			<td>2020</td>
+			<td>$12000000</td>
+		</tr>
+		<tr class="even">
+			<th>Yamaha</th>
+			<td>R15</td>
+			<td>2019</td>
+			<td>$9000000</td>
+		</tr>
+		<tr>
+			<th>KTM</th>
+			<td>Duke 250</td>
+			<td>2019</td>
+			<td>$1000000</td>
+		</tr>
+		<tr class="even">
+			<th>ATK Motos</th>
+			<td>NKD</td>
+			<td>2020</td>
+			<td>$200000</td>
+		</tr>
+	</table>
+	<form action="../vinculos/personalizada02.html" method="get">
+		<fieldset>
+			<legend>Te contactamos</legend>
+			<p>
+				<label class="title" for="name">Su nombre:</label>
+				<input type="text" name="name" id="name">
+				<label class="title" for="email">Su correo:</label>
+				<input type="text" name="email" id="email">
+			</p>
+			<p>
+				<label for="location">Ubicacion cercana:</label>
+				<select name="location" id="location">
+				<option value=""></option>
+				<option value="bog">Bogotá</option>
+				<option value="cal">Cali</option>
+				<option value="med">Medellin</option>
+				</select>
+			</p>
+			<h5>Fecha disponible <input type="date" name="fechadisponible"></h5>
+			<h5>Hora disponible <input type="time" name=""></h5>
+
+		</fieldset>
+		<div class="submit"><input type="submit" value="Registro"></div>
+	</form>
+
+</body>
+</html>
